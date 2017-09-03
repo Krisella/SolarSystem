@@ -1,0 +1,16 @@
+﻿Build started 27-Jan-16 9:43:08 PM.
+     1>Project "E:\Dropbox\eam\Solar System\Course4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt visuals.cpp
+         visuals.cpp
+     1>e:\dropbox\eam\solar system\visuals.cpp(194): warning C4154: deletion of an array expression; conversion to pointer supplied
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Solar System.exe" /INCREMENTAL /NOLOGO /LIBPATH:gl odbc32.lib odbccp32.lib opengl32.lib glaux.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Debug\Solar System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\Solar System.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\visuals.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Course4.vcxproj -> E:\Dropbox\eam\Solar System\Debug\Solar System.exe
+     1>Done Building Project "E:\Dropbox\eam\Solar System\Course4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.31
